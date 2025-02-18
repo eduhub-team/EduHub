@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Roadmap - EduHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/roadmap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+        <!-- Header Section -->
+        <header class="header fade-in">
+            <nav class="navbar">
+                <div class="logo slide-in-left">
+                    <img src="img/logo.jpg" alt="EduHub Logo" class="logo-img">
+                    <span class="logo-text">EduHub</span>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span><span></span><span></span>
+                </div>
+                <ul class="nav-links slide-in-right">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="roadmap.html">Roadmap</a></li>
+                    <li><a href="compiler.html">Compiler</a></li>
+                    <li><a href="competitive.html" class="active">Competitive</a></li>
+                    <li><a href="ai-assistant.html">AI Assistant</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+    <main class="roadmap-container">
+        <section class="roadmap-hero">
+            <h1 class="fade-in">Your Learning Journey</h1>
+            <p class="slide-up">Follow our carefully crafted roadmap to become a proficient developer</p>
+        </section>
+
+        <section class="roadmap-tracks">
+            <div class="track-selector">
+                <button class="track-btn active" data-track="frontend">Frontend Development</button>
+                <button class="track-btn" data-track="backend">Backend Development</button>
+                <button class="track-btn" data-track="fullstack">Full Stack Development</button>
+            </div>
+
+            <div class="roadmap-timeline">
+                <!-- Frontend Development Track -->
+                <div class="timeline-track" id="frontend-track">
+                    <div class="timeline-item completed">
+                        <div class="timeline-content">
+                            <h3>HTML & CSS Basics</h3>
+                            <p>Learn the fundamentals of web development</p>
+                            <ul>
+                                <li>HTML5 Structure</li>
+                                <li>CSS3 Styling</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                            <a href="#" class="btn primary-btn">Start Learning</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item active">
+                        <div class="timeline-content">
+                            <h3>JavaScript Fundamentals</h3>
+                            <p>Master the basics of JavaScript programming</p>
+                            <ul>
+                                <li>Variables & Data Types</li>
+                                <li>Functions & Objects</li>
+                                <li>DOM Manipulation</li>
+                            </ul>
+                            <a href="#" class="btn primary-btn">Continue Learning</a>
+                        </div>
+                    </div>
+
+                    <!-- More timeline items... -->
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

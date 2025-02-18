@@ -1,0 +1,438 @@
+/* Main Container Styles */
+.competitive-container {
+    padding-top: 120px; /* Account for header and user info bar */
+    min-height: 100vh;
+    background: #f8f9fa;
+}
+
+/* User Info Bar Styles */
+.user-info-bar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.user-info, .time-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info i, .time-info i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.user-info span {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.time-info span {
+    font-family: 'Courier New', monospace;
+    color: var(--text-color);
+    letter-spacing: 0.5px;
+}
+
+/* Hero Section Styles */
+.competitive-hero {
+    background: var(--gradient-primary);
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.competitive-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 1s ease;
+}
+
+.competitive-hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    opacity: 0.9;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Filter Section Styles */
+.problem-filters {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background: white;
+    margin: 0 5%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group select,
+.search-group input {
+    padding: 0.8rem 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    min-width: 200px;
+    background: #f8f9fa;
+}
+
+.search-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#searchBtn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#searchBtn:hover {
+    background: var(--secondary-color);
+}
+
+/* Problems Grid Styles */
+.problems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.problem-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.problem-card:hover {
+    transform: translateY(-5px);
+}
+
+.difficulty-badge {
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.difficulty-badge.beginner { background: #e3fcef; color: #2ECC71; }
+.difficulty-badge.easy { background: #e8f5e9; color: #4CAF50; }
+.difficulty-badge.medium { background: #fff3e0; color: #FF9800; }
+.difficulty-badge.hard { background: #ffebee; color: #f44336; }
+
+/* Single Problem View Styles */
+.single-problem-view {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 0 5%;
+}
+
+.problem-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.back-btn {
+    padding: 0.8rem 1.5rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+    background: var(--secondary-color);
+}
+
+.problem-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.problem-description-section,
+.examples-section,
+.solution-section {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.examples-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.example-input pre,
+.example-output pre {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Code Editor Styles */
+.code-editor-container {
+    margin-top: 1rem;
+}
+
+#languageSelect {
+    width: 200px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#codeEditor {
+    width: 100%;
+    min-height: 300px;
+    padding: 1rem;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: vertical;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.submit-btn,
+.test-btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.submit-btn {
+    background: var(--primary-color);
+    color: white;
+}
+
+.test-btn {
+    background: #f8f9fa;
+    color: var(--text-color);
+    border: 1px solid #ddd;
+}
+
+.submit-btn:hover {
+    background: var(--secondary-color);
+}
+
+.test-btn:hover {
+    background: #e9ecef;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .competitive-hero h1 {
+        font-size: 2rem;
+    }
+
+    .problem-filters {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .filter-group,
+    .search-group {
+        width: 100%;
+    }
+
+    .examples-section {
+        grid-template-columns: 1fr;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .competitive-hero {
+        padding: 3rem 1rem;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .problem-card {
+        padding: 1rem;
+    }
+
+    .single-problem-view {
+        padding: 1rem;
+        margin: 0 2%;
+    }
+}
+
+
+
+
+
+
+
+/* Add to your existing CSS */
+
+.results-container {
+    padding: 2rem;
+}
+
+.verdict {
+    background: #282a36;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.verdict.passed {
+    border: 2px solid #50fa7b;
+}
+
+.verdict.failed {
+    border: 2px solid #ff5555;
+}
+
+.verdict h3 {
+    color: #f8f8f2;
+    margin-bottom: 1rem;
+}
+
+.verdict-metrics {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: #6272a4;
+}
+
+.test-result {
+    background: #44475a;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.test-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #282a36;
+}
+
+.test-number {
+    color: #f8f8f2;
+    font-weight: 600;
+}
+
+.test-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.test-status.passed {
+    color: #50fa7b;
+}
+
+.test-status.failed {
+    color: #ff5555;
+}
+
+.test-details {
+    padding: 1rem;
+    color: #f8f8f2;
+}
+
+.test-input pre,
+.test-output pre {
+    background: #282a36;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 0.5rem 0 1rem;
+}
+
+.error-message {
+    color: #ff5555;
+    padding: 1rem;
+    background: rgba(255, 85, 85, 0.1);
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.test-metrics {
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem 1rem;
+    background: #282a36;
+    color: #6272a4;
+    font-size: 0.9rem;
+}
