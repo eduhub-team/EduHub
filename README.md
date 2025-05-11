@@ -74,7 +74,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - **Author:** [Fardin Khan Nur](https://github.com/fardin-khan-nur)
 - **Author:** [Hasibul-Islam-Tamim](https://github.com/Hasibul-Islam-Tamim)
-- - **Author:** [Mehedi Hasan Tanvir](https://github.com/)
+- **Author:** [Mehedi Hasan Tanvir](https://github.com/)
 - For questions or suggestions, please open an issue.
 
 ---
