@@ -56,6 +56,21 @@ const authorizedUsers = [
             { course: 'C & C++', completion: 60 },
             { course: 'Python Basics', completion: 25 }
         ]
+    },
+     { 
+        username: 'sck',
+        password: '1234',
+        fullName: ' sk sagor ',
+        joinDate: getCurrentDate(),
+        coursesCompleted: 12,
+        certificatesEarned: 5,
+        achievementPoints: 1850,
+        avatarUrl: '..img/Saymun.jpg',
+        progress: [
+            { course: 'HTML & CSS Fundamentals', completion: 90 },
+            { course: 'C & C++', completion: 80 },
+            { course: 'Python Basics', completion: 65 }
+        ]
     }
 ];
 
