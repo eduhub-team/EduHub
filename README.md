@@ -72,7 +72,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-- **Author:** [Fardin Khan Nur](https://github.com/fardin-khan-nur)
+- **Author:** [SK Shishir](https://github.com/sk-norman)
 - **Author:** [Hasibul-Islam-Tamim](https://github.com/Hasibul-Islam-Tamim)
 - **Author:** [Mehedi Hasan Tanvir](https://github.com/Tanvir-010)
 - For questions or suggestions, please open an issue.
