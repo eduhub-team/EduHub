@@ -11,9 +11,9 @@
 // Predefined user credentials with additional profile information
 const authorizedUsers = [
     { 
-        username: 'fkn',
+        username: 'sk',
         password: '1234',
-        fullName: 'Fardin Khan Nur',
+        fullName: 'SK Shishir',
         joinDate: getCurrentDate(),
         coursesCompleted: 20,
         certificatesEarned: 9,
@@ -28,9 +28,9 @@ const authorizedUsers = [
         ]
     },
     { 
-        username: 'tamim',
+        username: 'saymun',
         password: '1234',
-        fullName: 'Tamim Sharif',
+        fullName: 'Saymun Islam Mumin',
         joinDate: getCurrentDate(),
         coursesCompleted: 12,
         certificatesEarned: 5,
