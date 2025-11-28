@@ -18,7 +18,7 @@ const authorizedUsers = [
         coursesCompleted: 20,
         certificatesEarned: 9,
         achievementPoints: 3469,
-        avatarUrl: '..img/rsz_img-20250514-wa0051.jpg',
+        avatarUrl: '..',
         progress: [
             { course: 'HTML & CSS Fundamentals', completion: 85 },
             { course: 'C & C++', completion: 80 },
@@ -55,21 +55,6 @@ const authorizedUsers = [
             { course: 'HTML & CSS Fundamentals', completion: 50 },
             { course: 'C & C++', completion: 60 },
             { course: 'Python Basics', completion: 25 }
-        ]
-    },
-     { 
-        username: 'sck',
-        password: '1234',
-        fullName: ' sk sagor ',
-        joinDate: getCurrentDate(),
-        coursesCompleted: 13,
-        certificatesEarned: 6,
-        achievementPoints: 1860,
-        avatarUrl: '..img/Saymun.jpg',
-        progress: [
-            { course: 'HTML & CSS Fundamentals', completion: 90 },
-            { course: 'C & C++', completion: 80 },
-            { course: 'Python Basics', completion: 65 }
         ]
     }
 ];
