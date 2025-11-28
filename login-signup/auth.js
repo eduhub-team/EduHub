@@ -62,9 +62,9 @@ const authorizedUsers = [
         password: '1234',
         fullName: ' sk sagor ',
         joinDate: getCurrentDate(),
-        coursesCompleted: 12,
-        certificatesEarned: 5,
-        achievementPoints: 1850,
+        coursesCompleted: 13,
+        certificatesEarned: 6,
+        achievementPoints: 1860,
         avatarUrl: '..img/Saymun.jpg',
         progress: [
             { course: 'HTML & CSS Fundamentals', completion: 90 },
