@@ -35,7 +35,7 @@ const authorizedUsers = [
         coursesCompleted: 12,
         certificatesEarned: 5,
         achievementPoints: 1850,
-        avatarUrl: '../img/tamim11.jpg',
+        avatarUrl: '../img/tamim.jpg',
         progress: [
             { course: 'HTML & CSS Fundamentals', completion: 90 },
             { course: 'C & C++', completion: 80 },
