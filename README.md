@@ -28,7 +28,7 @@ EduHub is a web-based platform designed to facilitate online learning and knowle
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/fardin-khan-nur/EduHub.git
+   git clone https://github.com/sk shishir/EduHub.git
    cd EduHub
    ```
 2. **Install dependencies:**  
@@ -73,7 +73,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 - **Author:** [SK Shishir](https://github.com/sk-norman)
-- **Author:** [Hasibul-Islam-Tamim](https://github.com/Hasibul-Islam-Tamim)
+- **Author:** [Saymun Islam](https://github.com/muhammdsaymun002)
 - **Author:** [Mehedi Hasan Tanvir](https://github.com/Tanvir-010)
 - For questions or suggestions, please open an issue.
 
