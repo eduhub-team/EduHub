@@ -18,7 +18,7 @@ const authorizedUsers = [
         coursesCompleted: 20,
         certificatesEarned: 9,
         achievementPoints: 3469,
-        avatarUrl: '../img/Logo-Anonymous1.png',
+        avatarUrl: '../img/Logo-Anonymous.png',
         progress: [
             { course: 'HTML & CSS Fundamentals', completion: 85 },
             { course: 'C & C++', completion: 80 },
@@ -35,7 +35,7 @@ const authorizedUsers = [
         coursesCompleted: 12,
         certificatesEarned: 5,
         achievementPoints: 1850,
-        avatarUrl: '../img/tamim.jpg',
+        avatarUrl: '../img/tamim11.jpg',
         progress: [
             { course: 'HTML & CSS Fundamentals', completion: 90 },
             { course: 'C & C++', completion: 80 },
