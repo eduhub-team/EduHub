@@ -1,7 +1,7 @@
 // Predefined user credentials
 // const authorizedUsers = [
-//     { username: 'fardin_khan_nur', password: '1234', fullName: 'Fardin Khan Nur' },
-//     { username: 'tamim_sharif', password: '1234', fullName: 'Tamim Sharif' },
+//     { username: 'sk', password: '1234', fullName: 'SK shishir' },
+//     { username: 'saymun', password: '1234', fullName: 'Saymun Islam Mubin' },
 //     { username: 'tanvir', password: '1234', fullName: 'Tanvir' },
 //     // Add more users as needed
 // ];
@@ -18,7 +18,7 @@ const authorizedUsers = [
         coursesCompleted: 20,
         certificatesEarned: 9,
         achievementPoints: 3469,
-        avatarUrl: '../img/Logo-Anonymous.png',
+        avatarUrl: '../img/Logo-Anonymous1.png',
         progress: [
             { course: 'HTML & CSS Fundamentals', completion: 85 },
             { course: 'C & C++', completion: 80 },
