@@ -25,4 +25,5 @@ function showNextImage() {
 
 images[0].classList.add('active');
 
+
 setInterval(showNextImage, SLIDE_INTERVAL + 1000);
