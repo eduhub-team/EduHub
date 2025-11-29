@@ -13,7 +13,7 @@
     }
 }
 
-/* Slide In Animations */
+/* Slide In Animation */
 .slide-in-left {
     opacity: 0;
     transform: translateX(-50px);
